@@ -31,10 +31,37 @@ const books = [
   { title: "4", genre: "fbb", publish: 1971 },
   { title: "6", genre: "mimo", publish: 1941 },
 ];
-const collectdata=books.filter((bookss)=>bookss.publish===1971)
+const collectdata = books.filter((bookss) => bookss.publish === 1971);
 console.table(collectdata);
 
-
-const nuuu =[1,2,3,4,5,67,78]
-const newnuunuuu=nuuu.map((num)=>{return num+4})
+const nuuu = [1, 2, 3, 4, 5, 67, 78];
+const newnuunuuu = nuuu.map((num) => {
+  return num + 4;
+});
 console.log(newnuunuuu);
+
+const degee = [
+  { name: "mimoh", degree: "btech",age:20 },
+  { name: "gaurav", degree: "agriculture" ,age:21},
+  { name: "govind", degree: "charted accounted",age:27 },
+];
+// let userdata = degee.filter((puradata)=>puradata.degree==="btech")
+// console.log(userdata);
+let userdata =degee.filter((degerees)=>degerees.age===21)
+console.log(userdata);
+
+
+
+const ginti =[1,2,3,4,5,6,7,8,9]
+const num =ginti.filter((numbers)=>{
+  return numbers>4
+})
+console.log(num);
+
+
+
+
+
+
+
+
